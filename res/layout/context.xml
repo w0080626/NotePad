@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/context"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrund" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1_context"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#008000" >
+
+        <ImageView
+            android:id="@+id/iv_goback_context"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/amsc_ic_action_back_cab" />
+
+        <TextView
+            android:id="@+id/tv_goback_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_goback_context"
+            android:text="返回"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_time_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_goback_context"
+            android:layout_alignBottom="@+id/tv_goback_context"
+            android:layout_centerHorizontal="true"
+            android:text="2015年8月10日   9:52"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_finish_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_time_context"
+            android:layout_alignBottom="@+id/tv_time_context"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:text="完成"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_context_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1_context"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#00000000"
+        android:textColor="#000"
+        android:textCursorDrawable="@null" />
+
+    <LinearLayout
+        android:id="@+id/ll_dibu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#00000000"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/iv_add_context"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/add_file_108px_1190715_easyicon" />
+
+        <ImageView
+            android:id="@+id/iv_share_context"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:src="@drawable/share_128px_1137962_easyicon" />
+
+        <ImageView
+            android:id="@+id/iv_delete_context"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/deletefile_181px_1190759_easyicon" />
+    </LinearLayout>
+
+</RelativeLayout>

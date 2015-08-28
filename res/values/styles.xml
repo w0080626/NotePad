@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+    <!-- dialog -->
+    <style name="CommonDialog" parent="@android:style/Theme.Dialog">
+
+        <!-- <item name="android:windowBackground">@drawable/smssdk_dialog_bg</item> -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- white dialog -->
+    <style name="WhiteDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/dialog_white_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style> 
+     <style name="ThemeActivity" mce_bogus="1">
+		<item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+        
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity" mce_bogus="1">
+		<item name="android:activityOpenEnterAnimation">@anim/anim_enter</item>
+		<item name="android:activityOpenExitAnimation">@anim/anim_exit</item>
+		
+		<item name="android:activityCloseEnterAnimation">@anim/back_enter</item>
+		<item name="android:activityCloseExitAnimation">@anim/back_exit</item>
+	</style>
+
+</resources>

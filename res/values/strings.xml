@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">notePad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">授权操作遇到错误，请阅读Logcat输出; \n 如微信登录，需要微信客户端</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="tpl_ok">确定</string>
+    <string name="tpl_cancel">取消</string>
+    <string name="tpl_key_user_icon">头像</string>
+    <string name="tpl_key_user_name">昵称</string>
+    <string name="tpl_key_user_gender">性别</string>
+    <string name="tpl_key_user_note">备注</string>
+    <string name="tpl_value_user_name">昵称</string>
+    <string name="tpl_value_user_gender">性别</string>
+    <string name="tpl_value_user_note">请填写备注信息</string>
+    <string name="tpl_sign_user_info">用户信息</string>
+    <string name="tpl_sign_up">取消授权</string>
+    <string name="tpl_girl">女</string>
+    <string name="tpl_boy">男</string>
+    <string name="tpl_camera">拍照</string>
+    <string name="tpl_picture">从相册获取</string>
+    <string name="tpl_change_user_name_title">更改名字</string>
+    <string name="tpl_change_user_note_title">更改备注</string>
+    <string name="tpl_input_user_name_hint">好名字可以让你的朋友更容易记住你</string>
+    <string name="tpl_input_user_note_hint">自定义备注信息，给你带来更多吸引</string>
+    <string name="tpl_no_sdcard">sdcard 卡不存在</string>
+    <string name="tpl_msg_login_hint">请输入手机号码</string>
+    <string name="tpl_verify_code_hint">请输验证码</string>
+    <string name="tpl_get_verify_code">获取验证码</string>
+    <string name="tpl_send_verify_code">检验验证码</string>
+    <string name="signup_success">注册成功</string>
+    <string name="signup_failed">注册失败</string>
+    <string name="signup_exitUserText"> 退出当前账户</string>
+
+</resources>

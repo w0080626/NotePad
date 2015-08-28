@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="奥斯丁按地方"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_jiantou"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@+id/tv_createdate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/arrow_right_622px_1190578_easyicon" />
+
+    <TextView
+        android:id="@+id/tv_createdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/iv_jiantou"
+        android:text="2015-8-8"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

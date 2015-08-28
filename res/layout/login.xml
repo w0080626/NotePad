@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg" >
+
+    <RelativeLayout
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp" >
+
+        <Button
+            android:id="@+id/renren_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weibo_login"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/renren_login" />
+
+        <Button
+            android:id="@+id/baidu_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/renren_login"
+            android:layout_alignBottom="@+id/renren_login"
+            android:layout_alignLeft="@+id/qq_login"
+            android:background="@drawable/baidu_login" />
+
+        <Button
+            android:id="@+id/qq_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/renren_login"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/qq_login" />
+
+        <Button
+            android:id="@+id/weibo_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/renren_login"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/weibo_login" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="选择登录方式"
+            android:textColor="#A9A9A9"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</FrameLayout>

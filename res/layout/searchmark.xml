@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrund"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#008000" >
+
+        <SearchView
+            android:id="@+id/sv_searchzhandian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:iconifiedByDefault="false"
+            android:textSize="15sp"
+            android:queryHint="搜索笔记"
+             >
+
+        </SearchView>
+    </RelativeLayout>
+ <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_searchmarks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backgrund" />
+</LinearLayout>
